@@ -1,20 +1,18 @@
-/* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.8; /* Increased for better readability */
+    line-height: 1.8;
     color: #333;
-    background: #f3f4f6; /* Soft background for better contrast */
-    scroll-behavior: smooth; /* Enables smooth scrolling */
+    background: #f3f4f6;
+    scroll-behavior: smooth;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 3rem; /* Increased padding for better spacing */
+    padding: 1.5rem 3rem;
     background: #ffffff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -29,7 +27,7 @@ header {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    text-transform: uppercase; /* Adds a professional touch */
+    text-transform: uppercase;
 }
 
 .logo-icon {
@@ -42,9 +40,9 @@ header {
 }
 
 .nav-links {
-    list-style: none; /* Removes default bullet points */
+    list-style: none;
     display: flex;
-    gap: 2.5rem; /* Increased gap for better spacing between links */
+    gap: 2.5rem;
     margin: 0;
     padding: 0;
 }
@@ -59,10 +57,9 @@ header {
 
 .nav-links a:hover {
     color: #6c63ff;
-    transform: translateY(-2px); /* Adds a slight hover effect */
+    transform: translateY(-2px);
 }
 
-/* Shared Section Styles */
 section {
     padding: 4rem 3rem;
     margin-bottom: 3rem;
@@ -87,7 +84,6 @@ section p {
     line-height: 1.8;
 }
 
-/* About Me Section */
 #about {
     background: linear-gradient(135deg, #f3f4f6, #ffffff);
     text-align: center;
@@ -98,7 +94,6 @@ section p {
     margin: 0 auto;
 }
 
-/* Skills Section */
 #skills {
     display: flex;
     flex-direction: column;
@@ -134,7 +129,6 @@ section p {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Contact Section */
 #contact {
     text-align: center;
     background: linear-gradient(135deg, #ffffff, #f3f4f6);
